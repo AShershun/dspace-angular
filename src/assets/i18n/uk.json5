@@ -1646,6 +1646,12 @@
   // "cookies.consent.content-modal.title": "Information that we collect",
     "cookies.consent.content-modal.title": "Інформація, яку ми збираємо",
 
+  //"cookies.consent.content-modal.services": "Services",
+  "cookies.consent.content-modal.services": "Сервиси",
+
+  //"cookies.consent.save": "Save",
+  "cookies.consent.save": "Зберегти",
+
   // "cookies.consent.app.title.authentication": "Authentication",
     "cookies.consent.app.title.authentication": "Увійти",
 
@@ -2096,6 +2102,47 @@
     "info.privacy.title": "Заява про конфіденційність",
 
 
+  //"info.feedback.breadcrumbs": "Feedback",
+  "info.feedback.breadcrumbs": "Зворотний зв’язок",
+
+  //"info.feedback.head": "Feedback",
+  "info.feedback.head": "Зворотний зв’язок",
+
+  //"info.feedback.title": "Feedback",
+  "info.feedback.title": "Зворотний зв’язок",
+
+  //"info.feedback.info": "Thanks for sharing your feedback about the DSpace system. Your comments are appreciated!",
+  "info.feedback.info": "Дякуємо за відгук про систему DSpace. Ваші коментарі цінуються!",
+
+  //"info.feedback.email_help": "This address will be used to follow up on your feedback.",
+  "info.feedback.email_help": "Ця адреса буде використана для подальшої обробки ваших відгуків.",
+
+  //"info.feedback.send": "Send Feedback",
+  "info.feedback.send": "Надіслати відгук",
+
+  //"info.feedback.comments": "Comments",
+  "info.feedback.comments": "Коментарі",
+
+  //"info.feedback.email-label": "Your Email",
+  "info.feedback.email-label": "Ваша електронна адреса",
+
+  //"info.feedback.create.success" : "Feedback Sent Successfully!",
+  "info.feedback.create.success" : "Відгук успішно надіслано!",
+
+  //"info.feedback.error.email.required" : "A valid email address is required",
+  "info.feedback.error.email.required" : "Потрібна дійсна адреса електронної пошти",
+
+  //"info.feedback.error.message.required" : "A comment is required",
+  "info.feedback.error.message.required" : "Потрібен коментар",
+
+  //"info.feedback.page-label" : "Page",
+  "info.feedback.page-label" : "Сторінка",
+
+  //"info.feedback.page_help" : "Tha page related to your feedback",
+  "info.feedback.page_help" : "Сторінка, пов’язана з вашим відгуком",
+
+
+
 
   // "item.alerts.private": "This item is private",
     "item.alerts.private": "Доступ до документа закритий",
@@ -2272,12 +2319,73 @@
   // "item.edit.breadcrumbs": "Edit Item",
   "item.edit.breadcrumbs": "Редагувати документ",
 
+  //"item.edit.tabs.disabled.tooltip": "You're not authorized to access this tab",
+  "item.edit.tabs.disabled.tooltip": "Ви не авторизовані для доступу до цієї вкладки",
+
+
 
   // "item.edit.tabs.mapper.head": "Collection Mapper",
     "item.edit.tabs.mapper.head": "Карта зібрання",
 
   // "item.edit.tabs.item-mapper.title": "Item Edit - Collection Mapper",
     "item.edit.tabs.item-mapper.title": "Редагування документа - карта зібрання",
+
+  //"item.edit.identifiers.doi.status.UNKNOWN": "Unknown",
+  "item.edit.identifiers.doi.status.UNKNOWN": "Невідомий",
+
+  //"item.edit.identifiers.doi.status.TO_BE_REGISTERED": "Queued for registration",
+  "item.edit.identifiers.doi.status.TO_BE_REGISTERED": "У черзі на реєстрацію",
+
+  //"item.edit.identifiers.doi.status.TO_BE_RESERVED": "Queued for reservation",
+  "item.edit.identifiers.doi.status.TO_BE_RESERVED": "У черзі на бронювання",
+
+  //"item.edit.identifiers.doi.status.IS_REGISTERED": "Registered",
+  "item.edit.identifiers.doi.status.IS_REGISTERED": "Зареєстрований",
+
+  //"item.edit.identifiers.doi.status.IS_RESERVED": "Reserved",
+  "item.edit.identifiers.doi.status.IS_RESERVED": "Зарезервований",
+
+  //"item.edit.identifiers.doi.status.UPDATE_RESERVED": "Reserved (update queued)",
+  "item.edit.identifiers.doi.status.UPDATE_RESERVED": "Зарезервовано (оновлення в черзі)",
+
+  //"item.edit.identifiers.doi.status.UPDATE_REGISTERED": "Registered (update queued)",
+  "item.edit.identifiers.doi.status.UPDATE_REGISTERED": "Зареєстровано (оновлення в черзі)",
+
+  //"item.edit.identifiers.doi.status.UPDATE_BEFORE_REGISTRATION": "Queued for update and registration",
+  "item.edit.identifiers.doi.status.UPDATE_BEFORE_REGISTRATION": "У черзі на оновлення та реєстрацію",
+
+  //"item.edit.identifiers.doi.status.TO_BE_DELETED": "Queued for deletion",
+  "item.edit.identifiers.doi.status.TO_BE_DELETED": "У черзі на видалення",
+
+  //"item.edit.identifiers.doi.status.DELETED": "Deleted",
+  "item.edit.identifiers.doi.status.DELETED": "Видалено",
+
+  //"item.edit.identifiers.doi.status.PENDING": "Pending (not registered)",
+  "item.edit.identifiers.doi.status.PENDING": "Очікує на розгляд (не зареєстровано)",
+
+  //"item.edit.identifiers.doi.status.MINTED": "Minted (not registered)",
+  "item.edit.identifiers.doi.status.MINTED": "Карбований (не зареєстрований)",
+
+  //"item.edit.register-doi.header": "Register a new or pending DOI",
+  "item.edit.register-doi.header": "Зареєструйте новий або незавершений DOI",
+
+  //"item.edit.register-doi.description": "Review any pending identifiers and item metadata below and click Confirm to proceed with DOI registration, or Cancel to back out",
+  "item.edit.register-doi.description": "Перегляньте будь-які ідентифікатори та метадані елементів, що очікують на розгляд, і натисніть «Підтвердити», щоб продовжити реєстрацію DOI, або «Скасувати», щоб відмовитися від неї",
+
+  //"item.edit.register-doi.confirm": "Confirm",
+  "item.edit.register-doi.confirm": "",Підтвердити
+
+  //"item.edit.register-doi.cancel": "Cancel",
+  "item.edit.register-doi.cancel": "Скасувати",
+
+  //"item.edit.register-doi.success": "DOI queued for registration successfully.",
+  "item.edit.register-doi.success": "DOI успішно поставлено в чергу на реєстрацію.",
+
+  //"item.edit.register-doi.error": "Error registering DOI",
+  "item.edit.register-doi.error": "Помилка реєстрації DOI",
+
+  //"item.edit.register-doi.to-update": "The following DOI has already been minted and will be queued for registration online",
+  "item.edit.register-doi.to-update": "Наступний DOI уже створено та буде поставлено в чергу на онлайн-реєстрацію",
 
   // "item.edit.item-mapper.buttons.add": "Map item to selected collections",
   "item.edit.item-mapper.buttons.add": "Карта документа до вибраного зібрання",
@@ -2324,6 +2432,9 @@
   // "item.edit.item-mapper.notifications.remove.success.head": "Removal of mapping completed",
   "item.edit.item-mapper.notifications.remove.success.head": "Прив'язування видалено",
 
+  //"item.edit.item-mapper.search-form.placeholder": "Search collections...",
+  "item.edit.item-mapper.search-form.placeholder": "Пошук колекцій...",
+
   // "item.edit.item-mapper.tabs.browse": "Browse mapped collections",
   "item.edit.item-mapper.tabs.browse": "Переглянути прив'язки зібрання",
 
@@ -2365,6 +2476,9 @@
   // "item.edit.metadata.headers.value": "Value",
   "item.edit.metadata.headers.value": "Значення",
 
+  //"item.edit.metadata.metadatafield.error": "An error occurred validating the metadata field",
+  "item.edit.metadata.metadatafield.error": "Під час перевірки поля метаданих сталася помилка",
+
   // "item.edit.metadata.metadatafield.invalid": "Please choose a valid metadata field",
   "item.edit.metadata.metadatafield.invalid": "Виберіть відповідне поле метаданих",
 
@@ -2398,6 +2512,9 @@
   // "item.edit.metadata.reinstate-button": "Undo",
   "item.edit.metadata.reinstate-button": "Повернутись",
 
+  //"item.edit.metadata.reset-order-button": "Undo reorder",
+  "item.edit.metadata.reset-order-button": "Скасувати зміну порядку",
+
   // "item.edit.metadata.save-button": "Save",
   "item.edit.metadata.save-button": "Зберегти",
 
@@ -2416,6 +2533,12 @@
 
   // "item.edit.move.cancel": "Cancel",
   "item.edit.move.cancel": "Відмінити",
+
+  //"item.edit.move.save-button": "Save",
+  "item.edit.move.save-button": "зберегти",
+
+  //"item.edit.move.discard-button": "Discard",
+  "item.edit.move.discard-button": "Відмінити",
 
   // "item.edit.move.description": "Select the collection you wish to move this item to. To narrow down the list of displayed collections, you can enter a search query in the box.",
   "item.edit.move.description": "Виберіть зібрання, до якої потрібно перемістити цей документ. Щоб звузити список відображених зібрань, ви можете ввести пошуковий запит у поле.",
@@ -2720,11 +2843,11 @@
   // "item.page.volume-title": "Volume Title",
     "item.page.volume-title": "Назва тому",
 
-  // "item.search.results.head": "Результат пошуку за документами",
+  // "item.search.results.head": "Item Search Results",
   "item.search.results.head": "Результат пошуку за документами",
 
-  // "item.search.title": "DSpace Angular :: Item Search",
-  "item.search.title": "Репозитарій :: Пошук документів",
+  // "item.search.title": "Item Search",
+  "item.search.title": "Пошук документів",
 
   //"item.truncatable-part.show-more": "Show more",
   "item.truncatable-part.show-more": "Детальніше",
@@ -2803,6 +2926,12 @@
 
   // "item.page.link.simple": "Simple item page",
   "item.page.link.simple": "Скорочена інформація про документ",
+
+  //"item.page.orcid.title": "ORCID",
+  "item.page.orcid.title": "ORCID",
+
+  //"item.page.orcid.tooltip": "Open ORCID setting page",
+  "item.page.orcid.tooltip": "Відкрийте сторінку налаштувань ORCID",
 
   // "item.page.person.search.title": "Articles by this author",
   "item.page.person.search.title": "Публікації за автором",
@@ -3589,6 +3718,9 @@
   //"menu.section.icon.health": "Health",
   "menu.section.icon.health": "Статус",
 
+  //"health-page.Title": "Health",
+  "health-page.title": "Статус",
+
   //"health-page.heading": "Health",
   "health-page.heading": "Статус",
 
@@ -3600,6 +3732,49 @@
 
   //"health-page.info-tab": "Info",
   "health-page.info-tab": "Інформація",
+
+  //"health-page.error.msg": "The health check service is temporarily unavailable",
+  "health-page.error.msg": "Служба перевірки стану здоров'я тимчасово недоступна",
+  
+  //"health-page.property.status": "Status code",
+  "health-page.property.status": "Код стану",
+
+  //"health-page.section.db.title": "Database",
+  "health-page.section.db.title": "База даних",
+
+  /"health-page.section.geoIp.title": "GeoIp",
+  "health-page.section.geoIp.title": "GeoIp",
+
+  //"health-page.section.solrAuthorityCore.title": "Solr: authority core",
+  "health-page.section.solrAuthorityCore.title": "",
+
+  //"health-page.section.solrOaiCore.title": "Solr: oai core",
+  "health-page.section.solrOaiCore.title": "Solr: ядро oai",
+
+  //"health-page.section.solrSearchCore.title": "Solr: search core",
+  "health-page.section.solrSearchCore.title": "Solr: ядро пошуку",
+
+  //"health-page.section.solrStatisticsCore.title": "Solr: statistics core",
+  "health-page.section.solrStatisticsCore.title": "Solr: ядро статистики",
+
+  //"health-page.section-info.app.title": "Application Backend",
+  "health-page.section-info.app.title": "Application Backend",
+
+  //"health-page.section-info.java.title": "Java",
+  "health-page.section-info.java.title": "Java",
+
+  //"health-page.status.ok.info": "Operational",
+  "health-page.status.ok.info": "Operational",
+
+  //"health-page.status.error.info": "Problems detected",
+  "health-page.status.error.info": "Виявлені проблеми",
+
+  //"health-page.status.warning.info": "Possible issues detected",
+  "health-page.status.warning.info": "Виявлено можливі проблеми",
+
+  //"health-page.section.no-issues": "No issues detected",
+  "health-page.section.no-issues": "Проблем не виявлено",
+
 
   // "menu.section.registries": "Registries",
   "menu.section.registries": "Реєстри",
